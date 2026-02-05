@@ -1,0 +1,26 @@
+{
+  "sections": [
+    {
+      "id": 11,
+      "num": [
+        { "label": "1/4", "value": "quart" },
+        { "label": "1/2", "value": "middle" },
+        { "label": "1", "value": "1" },
+        { "label": "2", "value": "2" },
+        { "label": "3", "value": "3" },
+        { "label": "4", "value": "4" },
+        { "label": "5", "value": "5" }
+      ]
+    },
+    {
+      "id": 12,
+      "unit": [
+        { "label": "cucharada", "value": "cucharada" },
+        { "label": "taza", "value": "taza" },
+        { "label": "pieza", "value": "pieza" },
+        { "label": "cm", "value": "cm" },
+        { "label": "bolita", "value": "bolita" }
+      ]
+    }
+  ]
+}
