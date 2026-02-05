@@ -1,4 +1,3 @@
-// nuxt.config.ts
 export default defineNuxtConfig({
   compatibilityDate: "2024-11-01",
   modules: ["@nuxtjs/tailwindcss"],
@@ -15,7 +14,7 @@ export default defineNuxtConfig({
   // Configuración de la app
   app: {
     head: {
-      title: "Intercambios",
+      title: "Dropdown Selector App",
       meta: [
         { charset: "utf-8" },
         {
@@ -57,6 +56,13 @@ export default defineNuxtConfig({
     plugins: {
       tailwindcss: {},
       autoprefixer: {},
+    },
+  },
+
+  // Configuración de runtime
+  runtimeConfig: {
+    public: {
+      appName: "Dropdown Selector",
     },
   },
 });
