@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos base mejorados */
+@layer base {
+	body {
+		@apply antialiased;
+		overscroll-behavior: none; /* Previene pull-to-refresh en móvil */
+	}
+}
+
+/* Estilos para scroll personalizado */
+@layer utilities {
+	.scrollbar-thin {
+		scrollbar-width: thin;
+	}
+
+	.scrollbar-thumb-blue {
+		scrollbar-color: #3b82f6 #f1f1f1;
+	}
+
+	/* Mejora para toques en móvil */
+	@media (max-width: 640px) {
+		button,
+		[role="button"],
+		input,
+		select,
+		textarea {
+			@apply min-h-[44px] min-w-[44px]; /* Tamaño mínimo para toques */
+		}
+	}
+}

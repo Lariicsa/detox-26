@@ -1,0 +1,119 @@
+
+{
+  "sections": [
+    {
+      "id": 1,
+      "title": "Verduras",
+      "dropdowns": [
+        {
+          "id": "1.1",
+          "label": "Verdes",
+          "placeholder": "Selecciona verdura",
+          "options": [
+            { "label": "espinaca", "value": "espinaca" },
+            { "label": "acelga", "value": "acelga" },
+            { "label": "lechuga", "value": "lechuga" },
+            { "label": "brócoli", "value": "brocoli" },
+            { "label": "apio", "value": "apio" },
+            { "label": "espárrago", "value": "esparrago" },
+            { "label": "chayote", "value": "chayote" },
+            { "label": "ejote", "value": "ejote" },
+            { "label": "calabacita", "value": "calabacita" }
+          ]
+        },
+        {
+          "id": "1.2",
+          "label": "Moradas",
+          "placeholder": "Selecciona verdura",
+          "options": [
+            { "label": "jitomate", "value": "jitomate" },
+            { "label": "pimiento", "value": "pimiento" },
+            { "label": "betabel", "value": "betabel" },
+            { "label": "col morada", "value": "col-morada" },
+            { "label": "morada", "value": "morada" },
+            { "label": "cebolla", "value": "cebolla" },
+            { "label": "berenjena", "value": "berenjena" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Frutas",
+      "dropdowns": [
+        {
+          "id": "2.1",
+          "label": "Frutas fibra y agua",
+          "placeholder": "Fruta fibra",
+          "options": [
+            { "label": "limón", "value": "limon" },
+            { "label": "zanahoria", "value": "zanahoria" },
+            { "label": "melón", "value": "melon" },
+            { "label": "pera", "value": "pera" },
+            { "label": "toronja", "value": "toronja" },
+            { "label": "piña", "value": "pinia" },
+            { "label": "mandarina", "value": "mandarina" },
+            { "label": "kiwi", "value": "kiwi" },
+            { "label": "naranja", "value": "naranja" },
+            { "label": "plátano", "value": "plátano" },
+            { "label": "mango", "value": "mango" }
+          ]
+        },
+        {
+          "id": "2.2",
+          "label": "Frutas antioxidante",
+          "placeholder": "Selecciona antioxidante",
+          "options": [
+            { "label": "fresa", "value": "fresa" },
+            { "label": "manzana roja", "value": "manzana-roja" },
+            { "label": "frambuesa", "value": "frambuesa" },
+            { "label": "cerezas", "value": "cerezas" },
+            { "label": "sandía", "value": "sandia" },
+            { "label": "arándanos", "value": "arandanos" },
+            { "label": "ciruelas", "value": "ciruelas" },
+            { "label": "pasitas", "value": "pasitas" },
+            { "label": "uvas", "value": "uvas" },
+            { "label": "papaya", "value": "papaya" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Grasas",
+      "dropdowns": [
+        {
+          "id": "3.1",
+          "label": "Grasas buenas",
+          "placeholder": "Selecciona grasa",
+          "options": [
+            { "label": "aceite de oliva", "value": "olive" },
+            { "label": "aguacate", "value": "aguacate" },
+            { "label": "almendras", "value": "almendras" },
+            { "label": "cacahuates", "value": "cacahuates" },
+            { "label": "pistaches", "value": "pistaches" },
+            { "label": "nuez", "value": "nuez" },
+            { "label": "aceite de coco", "value": "coconut" }
+          ]
+        },
+        {
+          "id": "3.2",
+          "label": "Dropdown 3.2",
+          "placeholder": "Selecciona opción 3.2",
+          "options": [
+            { "label": "Opción 3.2 A", "value": "3.2-A" },
+            { "label": "Opción 3.2 B", "value": "3.2-B" },
+            { "label": "Opción 3.2 C", "value": "3.2-C" },
+            { "label": "Opción 3.2 D", "value": "3.2-D" },
+            { "label": "Opción 3.2 E", "value": "3.2-E" }
+          ]
+        }
+      ]
+    }
+  ],
+  "colors": [
+    { "section": 1, "bgColor": "bg-blue-500", "textColor": "text-blue-600", "bgLight": "bg-blue-50" },
+    { "section": 2, "bgColor": "bg-green-500", "textColor": "text-green-600", "bgLight": "bg-green-50" },
+    { "section": 3, "bgColor": "bg-purple-500", "textColor": "text-purple-600", "bgLight": "bg-purple-50" }
+  ]
+}
